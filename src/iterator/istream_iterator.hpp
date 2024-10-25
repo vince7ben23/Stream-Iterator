@@ -4,7 +4,7 @@
 using namespace std;
 
 template <class T>
-class my_istream_iterator
+class my_istream_iterator : public iterator<input_iterator_tag, T>
 {
 private:
     istream &istrm_;
