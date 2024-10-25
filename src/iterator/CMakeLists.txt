@@ -1,0 +1,2 @@
+add_library(istream_iterator istream_iterator.cpp)
+add_library(ostream_iterator ostream_iterator.cpp)
