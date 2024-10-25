@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include <iterator>
+
 using namespace std;
 
 /* The behavior of std::copy
@@ -26,7 +26,7 @@ private:
     bool first_element_;
 
 public:
-    // define iterator traits, we inherent iterator<output_iterator_tag, T> to save the works.
+    // define iterator traits, inherit iterator<output_iterator_tag, T> to save the works.
     // using difference_type = std::ptrdiff_t;
     // using value_type = T;
     // using pointer = T *;
